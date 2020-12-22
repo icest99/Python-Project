@@ -19,8 +19,8 @@ import os
 cwd = os.getcwd()
 
 # Get all the files in that directory
-files = os.listdir(cwd)
-print("Files in %r: %s" % (cwd, files))
+#files = os.listdir(cwd)
+#print("Files in %r: %s" % (cwd, files))
 
 # Change the current working directory to where the txt file is.
 os.chdir('E:\Python Project\Madlibs')
