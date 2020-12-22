@@ -33,6 +33,7 @@ madlibtxt = mopen.readlines()
 
 #Choose a random line from the list "random.choice(sequence)" sequence can be list, string, tuple. This function return a single items from the sequence.
 madlib = random.choice(madlibtxt)
+print(madlib)
 
 #ask user to input a word
 word = input("Enter a word: ")
