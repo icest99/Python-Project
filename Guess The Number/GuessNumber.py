@@ -29,7 +29,6 @@ def guessNum():
     if guess == ranNum:
       print("Correct!")
       print("You guessed "+ str(count) + " times!")
-      if 
       break
 
     elif guess > ranNum:
