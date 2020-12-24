@@ -1,3 +1,5 @@
+#There's so many way to improve these code, but for learning sake. This is good enough. I will revisit these code again in a month or two. to improve it by making it shorter, easier to read
+
 import random
 
 print("Hey! It's time to duel! Let's go!\n ROCK... \n PAPER... \n SCISSOR!!")
@@ -39,4 +41,4 @@ while round != "end":
     
     break
 
-
+#improvement idea: I should try to use def,return. more, break the game into two big part, user input and winning condition. add these to def and combine them together. it will make code shorter and more portable.
