@@ -23,9 +23,8 @@ def get_valid_word(words):
 def hangman():
   word = get_valid_word(words)
 
-  #set is a method used to convert iterable(list, tuple, etc) into a set (one of 4 bultin data type in Python)
-  word_letter = set(word) #for keeping track of what the user had guseed in the word
-
+  #convert list into a set
+  word_letter = set(word) #for keeping track of what the user had already guseed in the word
   alphabet = set(string.ascii_uppercase) #just imported upper case list of character in English dictionaries.
   used_letters = set() # what the user has guessed
 
@@ -56,6 +55,8 @@ def hangman():
       print("Invalid character, please type in a valid character")
     
     if len(word_letter) == 0:
-      print(f'you guessed it right! it is {word_list}')
+      print(f'you guessed it right! it is {word}')
 
 hangman()
+
+#I will add lives later.
